@@ -114,8 +114,8 @@ ul.row {
 
 [data-section-theme=“dark”] {
 	--color-text: white;
-	--section-title-color: color-white;
-	bg: var(--color-black;
+	--section-title-color: white;
+	background: var(--color-black);
 
 }
 
