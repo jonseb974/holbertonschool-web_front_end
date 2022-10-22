@@ -84,7 +84,7 @@ background-color: var(--color-light-grey);
 	margin: var(--section-tagline-margin);
 }
 
-ul .row {
+ul.row {
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -195,9 +195,11 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: var(--font-size-small);
 	color: var(--text-color);
 }
+
 .footer ul {
 	text-align: right;
 }
+
 /* pad 4 sides of the selected element with footer-padding */
 .footer {
 	padding: var(--footer-padding);
