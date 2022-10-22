@@ -177,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Target card-title that is inside card-services */
 .card-servcies .card-title {
-	margin: 0;
+	margin: none;
 }
 
 /* Target a that is inside card-services */
