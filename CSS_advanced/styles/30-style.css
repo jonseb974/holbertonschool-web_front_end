@@ -323,11 +323,12 @@ h1, h2, h3, h4, h5, h6 {
 	bottom: 0;
 	position: absolute;
 	content: "";
+}
 
 .card-work:hover .card-title {
 	opacity: 1;
 }
-}
+
 
 
 /* ======================== Root =========== */
