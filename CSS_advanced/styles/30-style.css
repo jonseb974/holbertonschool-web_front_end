@@ -37,7 +37,7 @@ body {
 	left: var(--header-logo-link-left);
 }
 
-/* --- Links --- */
+/* -------------------------------- Links --- */
 a:link {
         color: var(--text-color);
 	text-decoration: none;
@@ -56,7 +56,7 @@ a:active {
 background-color: var(--color-light-grey);
 }
 
-/* --- button class selector --- */
+/* ----------------------------- button class selector --- */
 .button {
 	display: var(--button-display);
 	padding: var(--button-padding);
@@ -66,7 +66,7 @@ background-color: var(--color-light-grey);
 	text-decoration: var(--button-text-decoration);
 }
 
-/* Create the hover state of the button class selector */
+/* ===== Create the hover state of the button class selector ===== */
 .button:hover {
 	color: var(--button-hover-color);
 	text-decoration: var(--button-hover-text-decoration);
@@ -81,7 +81,7 @@ background-color: var(--color-light-grey);
         color: var(--color-primary);
 }
 
-/* Set the padding on all 4 sides to section-padding */
+/* ----- Set the padding on all 4 sides to section-padding ----- */
 .section {
 	padding: var(--section-padding);
 }
@@ -91,12 +91,12 @@ background-color: var(--color-light-grey);
 	padding: var(--section-header-padding);
 }
 
-/* Pad 4 sides with section-body-padding */
+/* ====== Pad 4 sides with section-body-padding ===== */
 .section-body {
 	padding: var(--section-body-padding);
 }
 
-/* pad all 4 sides of the selected element with footer-padding */
+/* ====== pad all 4 sides of the selected element with footer-padding ===== */
 .section-footer {
 	padding: var(--section-footer-padding);
 	text-align: var(--section-footer-align);
@@ -118,7 +118,7 @@ background-color: var(--color-light-grey);
 	margin: var(--section-tagline-margin);
 }
 
-/* Section Hero */
+/* ===== Section Hero ==== */
 .section-hero {
 	background-size: 90rem auto;
 }
@@ -153,13 +153,13 @@ ul.row {
 	width: 50%;
 }
 
-/* Select all classes that start with col- */
+/* ===== Select all classes that start with col- */
 [class^="col-"] {
 	float: left;
 	padding: 0.5rem;
 }
 
-/* Style the data-section-theme=“dark” */
+/* ===== Style the data-section-theme=“dark” ===== */
 [data-section-theme="dark"] {
 	--text-color: var(--color-white);
 	--section-title-color: var(--color-white);
@@ -168,7 +168,7 @@ ul.row {
 
 }
 
-/* Distribute margins on both, left & right side */
+/* ------ Distribute margins on both, left & right side ------ */
 .container {
 	width: 960px;
 	margin-left: auto;
@@ -185,7 +185,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: var(--font-weight-bold);
 }
 
-/* Navigation menu settings */
+/* ==== Navigation menu settings ==== */
 .navbar-menu {
 	float: right;
 }
@@ -236,24 +236,24 @@ h1, h2, h3, h4, h5, h6 {
 	display: block;
 }
 
-/* Style the social-link class that also selects the svg children */
+/* -------------------------- Style the social-link class that also selects the svg children ----- */
 .social-link > svg {
 	fill: var(--text-color);
 }
 
-/* Target card-title that is inside card-services */
+/* ===== Target card-title that is inside card-services === */
 .card-services .card-title {
 	margin: 0;
 }
 
-/* Target a that is inside card-services */
+/* --- Target a that is inside card-services --- */
 .card-services a {
 	display: block;
 	padding: 2rem;
 	background-color: var(--color-light-grey);
 }
 
-/* Target the hover state of a that is inside card-services */
+/* ===== Target the hover state of a that is inside card-services ===== */
 .card-services a:hover {
 	color: var(--color-white);
 	background-color: var(--color-primary);
@@ -277,7 +277,65 @@ h1, h2, h3, h4, h5, h6 {
 	color: var(--color-primary);
 }
 
-/* Root */
+.card-work .card-outer {
+	position: relative;
+	overflow: hidden;
+}
+
+.card-work .card-image {
+	height: 30rem;
+	width: 100%;
+	object-fit: cover;
+	vertical-align: bottom;
+}
+
+.card-work .card-inner {
+	position: absolute;
+	top: -0.1rem;
+	left: -0.1rem;
+	right: -0.1rem;
+	z-index: 1;
+}
+
+.card-work:hover .card-inner {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.card-work .card-title {
+	text-align: center;
+	margin: 0;
+	opacity: 0;
+	height: 100%;
+	position: relative;
+}
+
+.card-work .card-title a  {
+	display: block;
+	text-decoration: none;
+	padding-top: 45%;
+}
+
+.card-work ,card-title a::after {
+	position: absolute;
+	
+}
+
+.card-work .card-title a::after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	position: absolute;
+	conten: "";
+
+.card-work:hover .card-title {
+	opacity: 1;
+}
+}
+
+
+/* ======================== Root =========== */
 :root {
  	--color-primary: #d73953;
 	--color-black: #090909;
