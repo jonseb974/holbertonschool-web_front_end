@@ -1,7 +1,7 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}
 /*# sourceMappingURL=normalize.min.css.map */
 
-/*Css Style*/
+/* CSS Style-task32 */
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -21,7 +21,8 @@ body {
 }
 
 
-/* --- Headers --- */
+/* --- HEADERS --- */
+
 .header {
 	padding: var(--header-padding);
 }
@@ -37,7 +38,7 @@ body {
 	left: var(--header-logo-link-left);
 }
 
-/* -------------------------------- Links --- */
+/* ------------------ LINKS -------- */
 a:link {
         color: var(--text-color);
 	text-decoration: none;
@@ -56,7 +57,7 @@ a:active {
 background-color: var(--color-light-grey);
 }
 
-/* ----------------------------- button class selector --- */
+/* ----------------- BUTTON class SELECTOR ------ */
 .button {
 	display: var(--button-display);
 	padding: var(--button-padding);
@@ -93,12 +94,12 @@ background-color: var(--color-light-grey);
 	padding: var(--section-header-padding);
 }
 
-/* ====== Pad 4 sides with section-body-padding ===== */
+/* ====== Pad 4 sides with SECTIONn-body-PADDING ===== */
 .section-body {
 	padding: var(--section-body-padding);
 }
 
-/* ====== pad all 4 sides of the selected element with footer-padding ===== */
+/* ====== pad all 4 sides of the selected element with FOOTER-PADDING ===== */
 .section-footer {
 	padding: var(--section-footer-padding);
 	text-align: var(--section-footer-align);
@@ -120,7 +121,7 @@ background-color: var(--color-light-grey);
 	margin: var(--section-tagline-margin);
 }
 
-/* ===== Section Hero ==== */
+/* ===== SECTION HERO ==== */
 .section-hero {
 	background-size: 90rem auto;
 }
@@ -156,12 +157,14 @@ ul.row {
 }
 
 /* ===== Select all classes that start with col- */
+
 [class^="col-"] {
 	float: left;
 	padding: 0.5rem;
 }
 
 /* ===== Style the data-section-theme=“dark” ===== */
+
 [data-section-theme="dark"] {
 	--text-color: var(--color-white);
 	--section-title-color: var(--color-white);
@@ -187,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: var(--font-weight-bold);
 }
 
-/* ==== Navigation menu settings ==== */
+/* ==== NAVIGATION menu SETTINGS ==== */
 .navbar-menu {
 	float: right;
 }
@@ -239,31 +242,31 @@ h1, h2, h3, h4, h5, h6 {
 	display: block;
 }
 
-/* -------------------------- Style the social-link class that also selects the svg children ----- */
+/* ------------------> Style the social-link class that also selects the svg children <-- -- */
 .social-link > svg {
 	fill: var(--text-color);
 }
 
-/* ===== Target card-title that is inside card-services === */
+/* ====> Target card-title that is inside card-services <=== */
 .card-services .card-title {
 	margin: 0;
 }
 
-/* --- Target a that is inside card-services --- */
+/* =========> Target a that is inside card-services <==== */
 .card-services a {
 	display: block;
 	padding: 2rem;
 	background-color: var(--color-light-grey);
 }
 
-/* ===== Target the hover state of a that is inside card-services ===== */
+/* ===== Target the HOVER state of a that is inside CARD-SERVICES ======== */
 .card-services a:hover {
 	color: var(--color-white);
 	background-color: var(--color-primary);
 	text-decoration: none;
 }
 
-/* Testimonial */
+/* ======== TESTIMONIAL ========== */
 .card-testimonial {
 	text-align: center;
 }
@@ -294,7 +297,7 @@ h1, h2, h3, h4, h5, h6 {
 	z-index: -1;
 }
 
-
+/* =======CARD-WORK ========= */
 .card-work .card-outer {
 	position: relative;
 	overflow: hidden;
@@ -344,6 +347,7 @@ h1, h2, h3, h4, h5, h6 {
 	content: "";
 }
 
+/* ======= CARD-WOK ==== HOVER ========== */
 .card-work:hover .card-title {
 	opacity: 1;
 }
@@ -354,18 +358,21 @@ h1, h2, h3, h4, h5, h6 {
 
 .card-work:hover .card-image {
 	transform: scale(1.2);
-	transition: var(-–transition-duration) var(--transition-cubic-bezier);
+	transition-duration: var(--transition-cubic-bezier);
 }
 
 
-/* ======================== Root =========== */
+/* ========== ROOT =========== */
 :root {
+	/* ---- COLOR SETTINGS ---- */
  	--color-primary: #d73953;
 	--color-black: #090909;
 	--color-white: #ffffff;
 	--color-light-grey: #f3f3f3;
 	--color-dark-grey: #353535;
 	--text-color: var(--color-black);
+
+	/* ---- FONT-FAMILY --- */
 	--font-family-base: "Open Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
 	--font-family-title: "Raleway", Helvetica Neue, Helvetica, Arial, sans-serif; 
 	--font-size-small: 1.2rem;
@@ -375,9 +382,13 @@ h1, h2, h3, h4, h5, h6 {
 	--font-size-xx-large: 4.8rem;
 	--font-weight-regular: 400;
 	--font-weight-bold: 700;
+
+	/* --- LINES --- */
 	--line-height-small: 1.2;
 	--line-height-base: 1.5;
 	--line-height-big: 1.8;
+	
+	/* --- SECTION --- */
 	--section-header-align: center;
 	--section-tagline-transform: uppercase;
 	--section-title-margin: 0;
@@ -389,7 +400,7 @@ h1, h2, h3, h4, h5, h6 {
 	--section-footer-align: center;
 	--footer-padding: 5rem 0 1rem;
 	
-	/*NAVIGATION*/
+	/* --- NAVIGATION --- */
 	--nav-item-font-family: var(--font-family-title);
 	--nav-item-font-weight: var(--font-weight-bold);
 	--nav-item-font-size: var(--font-size-medium);
@@ -399,7 +410,7 @@ h1, h2, h3, h4, h5, h6 {
 	--nav-item-link-hover: var(--color-white);
 	--section-tagline-margin: 0;
 	
-	/*BUTTON*/
+	/* --- BUTTON --- */
 	--button-display: inline-block;
 	--button-padding: 1.5rem 3rem;
 	--button-border: 0.2rem solid var(--color-primary);
@@ -410,7 +421,7 @@ h1, h2, h3, h4, h5, h6 {
 	--button-hover-text-decoration: none;
 	--button-hover-background: var(--color-primary);
 	
-	/*HEADER*/
+	/* ---- HEADER ---- */
 	--header-padding: 4rem 0 0;
 	--header-logo-position: relative;
 	--header-logo-link-display: inline-block;
@@ -418,7 +429,7 @@ h1, h2, h3, h4, h5, h6 {
 	--header-logo-link-top: -1rem;
 	--header-logo-link-left: 0;
 	
-	/* Animation */
+	/* --- ANIMATION --- */
 	--transition-duration: .3s;
 	--transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
 
