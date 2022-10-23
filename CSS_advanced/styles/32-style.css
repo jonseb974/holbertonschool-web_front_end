@@ -57,7 +57,8 @@ a:active {
 background-color: var(--color-light-grey);
 }
 
-/* ----------------- BUTTON class SELECTOR ------ */
+/* -------- BUTTON class SELECTOR ------ */
+
 .button {
 	display: var(--button-display);
 	padding: var(--button-padding);
@@ -67,7 +68,7 @@ background-color: var(--color-light-grey);
 	text-decoration: var(--button-text-decoration);
 }
 
-/* ===== Create the hover state of the button class selector ===== */
+/* ===== Create HOVER BUTTON CLASS SELECTOR ===== */
 .button:hover {
 	color: var(--button-hover-color);
 	text-decoration: var(--button-hover-text-decoration);
@@ -84,7 +85,7 @@ background-color: var(--color-light-grey);
         color: var(--color-primary);
 }
 
-/* ----- Set the padding on all 4 sides to section-padding ----- */
+/* ----- Set PADDING on all 4 sides to section-padding ----- */
 .section {
 	padding: var(--section-padding);
 }
@@ -94,7 +95,7 @@ background-color: var(--color-light-grey);
 	padding: var(--section-header-padding);
 }
 
-/* ====== Pad 4 sides with SECTIONn-body-PADDING ===== */
+/* ====== Pad 4 sides with SECTION-body-PADDING ===== */
 .section-body {
 	padding: var(--section-body-padding);
 }
@@ -358,7 +359,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .card-work:hover .card-image {
 	transform: scale(1.2);
-	transition-duration: var(--transition-cubic-bezier);
+	transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 
