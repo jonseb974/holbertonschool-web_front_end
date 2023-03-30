@@ -3,14 +3,13 @@
 ### Resources
 
 ### Read or watch:
-
-    - Chrome DevTools | Tools for Web Developers | Google Developers
-    - Introduction | Down and Dirty with Chrome Developer Tools
-    - Firefox Developer Tools | MDN
-    - Dev Tips - Developer Tips by Umar Hansa
-    - Get Started With Viewing And Changing CSS | Tools for Web Developers
-    - Keeping it simple with the JavaScript console - LogRocket Blog
-    - Inspect Network Activity - Chrome DevTools 101
+- [Chrome DevTools | Tools for Web Developers | Google Developers](https://developer.chrome.com/docs/devtools/)
+- [Introduction | Down and Dirty with Chrome Developer Tools](https://intranet.hbtn.io/rltoken/G_mzqm_oYdNwGPKZge4_rA)
+- [Firefox Developer Tools | MDN](https://firefox-source-docs.mozilla.org/devtools-user/index.html)
+- [Dev Tips - Developer Tips by Umar Hansa](https://firefox-source-docs.mozilla.org/devtools-user/index.html)
+- [Get Started With Viewing And Changing CSS | Tools for Web Developers](https://intranet.hbtn.io/rltoken/pFrF6Ec17k1fwgBrefnNKg)
+- [Keeping it simple with the JavaScript console - LogRocket Blog](https://intranet.hbtn.io/rltoken/sRc9bRtc24PgU7UH6Rso2Q)
+- [Inspect Network Activity - Chrome DevTools 101](https://intranet.hbtn.io/rltoken/sRc9bRtc24PgU7UH6Rso2Q)
 
 ### Learning Objectives
 
