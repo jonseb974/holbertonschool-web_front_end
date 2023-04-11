@@ -579,7 +579,7 @@
   left: 0;
   bottom: 0;
   z-index: 0;
-
+}
 .hero-article .section-inner {
   text-align: center;
   align-items: center;
@@ -590,7 +590,4 @@
   position: relative;
   padding: 7rem 0 0;
   z-index: 2;
-
-}
-
 }
