@@ -1,5 +1,6 @@
 # Responsive design
-Resources
+![image](readme.jpg)
+## Resources
 
 ### Read or watch:
 
