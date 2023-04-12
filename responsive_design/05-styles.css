@@ -324,8 +324,8 @@
     user-select: none;
   }
 
-  .header .navicon .menu-icon {
-    background: var(color-white);
+  .header .menu-icon .navicon {
+    background: var(--color-white);
     display: block;
     width: 2rem;
     height: .2rem;
@@ -333,16 +333,16 @@
     transition: background .2s ease-out;
   }
   .header .menu-icon .navicon::before,
-  .header .menu-icon .navicon ::after {
+  .header .menu-icon .navicon::after {
     content: "";
     display: block;
     width: 100%;
     height: 100%;
     position: absolute;
-    background: var(color-white);
+    background: var(--color-white);
     transition: all .2s ease-out;
   }
-  .header .navicon .menu-icon::before {
+  .header .menu-icon .navicon::before {
     top: .7rem;
   }
   .header .menu-icon .navicon::after {
