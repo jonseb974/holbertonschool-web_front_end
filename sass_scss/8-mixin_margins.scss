@@ -1,0 +1,22 @@
+/* My style */
+
+$margin-body: 10px; //define the variable
+$margin-div: 15px;
+
+@mixin margin-body {
+	margin-left: $margin-body;
+	margin-right: $margin-body;
+}
+
+@mixin margin-div {
+	margin-left: $margin-div;
+	margin-right: $margin-div;
+}
+
+body {
+	@include margin-body;
+}
+
+div {
+	@include margin-div;
+}
