@@ -1,17 +1,16 @@
 /* My style */
 
-$font-size: 12px;
-$first_text-color: #00FF00;
-$second_text-color: #FF0000;
+.info {
+    font-size: 12px;
 
-.info, .success, .warning {
-    font-size: $font-size;
 }
 
 .success {
-    color: $first_text-color;
+    @extend .info;
+    color: #00FF00; 
 }
-.warning {
-    color: $second_text-color;
-   } 
 
+.warning {
+    @extend .info;
+    color: #FF0000;
+}
