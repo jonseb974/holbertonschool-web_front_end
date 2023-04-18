@@ -1,0 +1,14 @@
+/* My style */
+body {
+    .container {
+        color: #3D3D3D;
+    }
+}
+
+$main-color: #3D3D3D;
+
+body {
+    color: $main-color; }
+  
+  p {
+    color: $main-color; }
