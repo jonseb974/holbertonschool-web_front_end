@@ -1,0 +1,13 @@
+# Ignore compiled Sass files
+*.css
+
+# Ignore Sass cache files
+*.map
+
+# Ignore the entire directory if using Sass's --watch flag
+.sass-cache/
+
+# Ignore any other build directories
+public/
+dist/
+
